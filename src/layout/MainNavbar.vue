@@ -31,19 +31,26 @@
         </a>
       </li>
 
-      <li class="nav-item">
-        <a
-          class="nav-link"
-          href="#/"
-        >
-          <p>Services</p>
-        </a>
-      </li>
+      <drop-down
+              tag="li"
+              title="Services"
+              class="nav-item"
+      >
+        <nav-link to="/landing">
+          <i class="now-ui-icons design_app"></i> IT Products and Services
+        </nav-link>
+        <nav-link to="/login">
+          <i class="now-ui-icons education_hat"></i> Development Workshops
+        </nav-link>
+        <nav-link to="/profile">
+          <i class="now-ui-icons emoticons_satisfied"></i> eServices Helpdesk
+        </nav-link>
+      </drop-down>
 
       <li class="nav-item">
         <a
           class="nav-link"
-          href="#/"
+          href="#/contact"
         >
           <p>Contact Us</p>
         </a>
@@ -63,6 +70,8 @@ export default {
   },
   components: {
     Navbar,
+    NavLink,
+    DropDown,
     [Popover.name]: Popover
   }
 };

@@ -33,68 +33,222 @@
         </div>
       </div>
     </div>
-    <basic-elements></basic-elements>
-    <navigation></navigation>
-    <tabs-section></tabs-section>
-    <progress-pagination></progress-pagination>
-    <notifications></notifications>
-    <typography></typography>
-    <javascript-components></javascript-components>
-    <carousel-section></carousel-section>
-    <nucleo-icons-section></nucleo-icons-section>
-    <div class="section">
-      <div class="container text-center">
-        <div class="row justify-content-md-center">
-          <div class="col-md-12 col-lg-8">
-            <h2 class="title">Completed with examples</h2>
+    <div class="section section-about-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto text-center">
+            <h2 class="title">Who we are?</h2>
             <h5 class="description">
-              The kit comes with three pre-built pages to help you get started
-              faster. You can change the text and images and you're good to go.
-              More importantly, looking at them will give you a picture of what
-              you can built with this powerful Bootstrap 4 ui kit.
+              eServices is a cluster under MISA that provides IT solutions to clients within and outside the organization. In line with MISA's vision of social transformation through information management, it aims to improve organizational processes of clients by delivering quality IT Solutions through the effective use of information technology.
             </h5>
+            <a
+              href="#/about"
+              class="btn btn-primary btn-lg btn-simple btn-round"
+              role="button"
+            >
+              Learn More
+            </a>
+          </div>
+        </div>
+        <div class="separator separator-primary"></div>
+        <div class="section-story-overview">
+          <div class="row">
+            <div class="col-md-6">
+              <div
+                class="image-container image-left"
+                style="background-image: url('img/login.jpg')"
+              >
+                <!-- First image on the left side -->
+                <p class="blockquote blockquote-primary">
+                  "The next step to business technology"
+                  <br />
+                  <br />
+                  <!-- <small>-MISA</small> -->
+                </p>
+              </div>
+              <!-- Second image on the left side of the article -->
+              <div
+                class="image-container"
+                style="background-image: url('img/bg3.jpg')"
+              ></div>
+            </div>
+            <div class="col-md-5">
+              <!-- First image on the right side, above the article -->
+              <div
+                class="image-container image-right"
+                style="background-image: url('img/bg1.jpg')"
+              ></div>
+              <h3>
+                The next step to business technology.
+              </h3>
+              <p>
+                The Arctic Ocean freezes every winter and much of the sea-ice
+                then thaws every summer, and that process will continue whatever
+                happens with climate change. Even if the Arctic continues to be
+                one of the fastest-warming regions of the world, it will always
+                be plunged into bitterly cold polar dark every winter. And
+                year-by-year, for all kinds of natural reasons, there’s huge
+                variety of the state of the ice.
+              </p>
+              <p>
+                For a start, it does not automatically follow that a record
+                amount of ice will melt this summer. More important for
+                determining the size of the annual thaw is the state of the
+                weather as the midnight sun approaches and temperatures rise.
+                But over the more than 30 years of satellite records, scientists
+                have observed a clear pattern of decline, decade-by-decade.
+              </p>
+              <p>
+                The Arctic Ocean freezes every winter and much of the sea-ice
+                then thaws every summer, and that process will continue whatever
+                happens with climate change. Even if the Arctic continues to be
+                one of the fastest-warming regions of the world, it will always
+                be plunged into bitterly cold polar dark every winter. And
+                year-by-year, for all kinds of natural reasons, there’s huge
+                variety of the state of the ice.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <signup-form></signup-form>
-    <examples-section></examples-section>
-    <download-section></download-section>
+    
+    <div class="section section-basic">
+        <div class="">
+            <div class="col-md-6 ml-auto mr-auto">
+                <h2 class="title text-center">Our Services</h2>
+            </div>
+            <tabs
+                pills
+                class="nav-align-center"
+                tab-content-classes="gallery"
+                tab-nav-classes="nav-pills-just-icons"
+                type="primary"
+            >
+                <tab-pane title="Development">
+                    <i slot="label" class="now-ui-icons design_app"></i>
+                    <div class="col-md-10 ml-auto mr-auto">
+                        <div class="section section-nucleo-icons">
+                          <div class="container">
+
+                            <div class="row justify-content-md-center">
+                              <div class="text-center col-md-12 col-lg-8">
+                                <h3 class="title">Systems Design and Development</h3>
+                                <h5 class="description">
+                                  MISA eServices offers IT Consultancy so we can improve your organization by leveraging IT to your advantage. We also offer web and systems development to help you build your online presence, or to make your processes more effective and efficient to maximize your business potential.
+                                </h5>
+                              </div>
+                              <div class="text-center col-md-12 col-lg-8">
+                                <a
+                                  href="#/contact"
+                                  class="btn btn-primary btn-lg btn-round"
+                                  role="button"
+                                >
+                                  Contact Us
+                                </a>
+                                <a
+                                  href="#/development"
+                                  target="_blank"
+                                  class="btn btn-primary btn-lg btn-simple btn-round"
+                                  role="button"
+                                >
+                                  Our Process
+                                </a>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                    </div>
+                </tab-pane>
+
+                <tab-pane title="Workshops">
+                    <i slot="label" class="now-ui-icons education_hat"></i>
+                    <div class="col-md-10 ml-auto mr-auto">
+                        <div class="section section-nucleo-icons">
+                          <div class="container">
+                            <div class="row justify-content-md-center">
+                              <div class="text-center col-md-12 col-lg-8">
+                                <h3 class="title">Workshops</h3>
+                                <h5 class="description">
+                                  MISA eServices offers IT Consultancy so we can improve your organization by leveraging IT to your advantage. We also offer web and systems development to help you build your online presence, or to make your processes more effective and efficient to maximize your business potential.
+                                </h5>
+                              </div>
+                              <div class="text-center col-md-12 col-lg-8">
+                                <a
+                                  href="#/contact"
+                                  class="btn btn-primary btn-lg btn-round"
+                                  role="button"
+                                >
+                                  Workshops Schedule
+                                </a>
+                              </div>
+                            </div>
+                            
+
+                          </div>
+                        </div>
+                    </div>
+                </tab-pane>
+
+                <tab-pane title="Helpdesk">
+                    <i slot="label" class="now-ui-icons emoticons_satisfied"></i>
+                    <div class="col-md-10 ml-auto mr-auto">
+                        <div class="section section-nucleo-icons">
+                          <div class="container">
+                            <div class="row justify-content-md-center">
+                              <div class="text-center col-md-12 col-lg-8">
+                                <h3 class="title">eServices Helpdesk</h3>
+                                <h5 class="description">
+                                  MISA eServices offers IT Consultancy so we can improve your organization by leveraging IT to your advantage. We also offer web and systems development to help you build your online presence, or to make your processes more effective and efficient to maximize your business potential.
+                                </h5>
+                              </div>
+                              <div class="text-center col-md-12 col-lg-8">
+                                <a
+                                  href="#/contact"
+                                  class="btn btn-primary btn-lg btn-round"
+                                  role="button"
+                                >
+                                  Contact Us
+                                </a>
+                                <a
+                                  href="#/development"
+                                  target="_blank"
+                                  class="btn btn-primary btn-lg btn-simple btn-round"
+                                  role="button"
+                                >
+                                  About Helpdesk
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </tab-pane>
+            </tabs>
+        </div>
+    </div>
+
+
   </div>
 </template>
 <script>
-import { Parallax } from '@/components';
-import BasicElements from './components/BasicElementsSection';
-import Navigation from './components/Navigation';
-import TabsSection from './components/Tabs';
-import ProgressPagination from './components/ProgressPagination';
-import Notifications from './components/Notifications';
-import Typography from './components/Typography';
-import JavascriptComponents from './components/JavascriptComponents';
-import CarouselSection from './components/CarouselSection';
-import NucleoIconsSection from './components/NucleoIconsSection';
-import SignupForm from './components/SignupForm';
-import ExamplesSection from './components/ExamplesSection';
-import DownloadSection from './components/DownloadSection';
+import { Parallax, Tabs, TabPane } from '@/components';
+
+
 
 export default {
   name: 'index',
   bodyClass: 'index-page',
   components: {
     Parallax,
-    BasicElements,
-    Navigation,
-    TabsSection,
-    ProgressPagination,
-    Notifications,
-    Typography,
-    JavascriptComponents,
-    CarouselSection,
-    NucleoIconsSection,
-    SignupForm,
-    ExamplesSection,
-    DownloadSection
+    Tabs,
+    TabPane
   }
 };
 </script>
-<style></style>
+<style lang="scss" scoped>
+.description{
+    color: #2c2c2c;
+}
+</style>

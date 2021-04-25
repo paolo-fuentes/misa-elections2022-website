@@ -8,24 +8,39 @@
       <nav>
         <ul>
           <li>
-            <a href="https://www.creative-tim.com">
-              Creative Tim
+            <a href="#/">
+              Home
             </a>
           </li>
           <li>
-            <a href="https:///presentation.creative-tim.com">
-              About Us
+            <a href="#/about">
+              About
             </a>
           </li>
           <li>
             <a href="https:///blog.creative-tim.com">
-              Blog
+              Development
+            </a>
+          </li>
+          <li>
+            <a href="https:///blog.creative-tim.com">
+              Workshops
+            </a>
+          </li>
+          <li>
+            <a href="https:///blog.creative-tim.com">
+              Helpdesk
+            </a>
+          </li>
+          <li>
+            <a href="#/contact">
+              Contact
             </a>
           </li>
         </ul>
       </nav>
       <div class="copyright">
-        &copy; {{ year }}, Developed by MISA eServices.
+        &copy; {{ year }}, Developed by MISA eServices A.Y. 2020-2021
       </div>
     </div>
   </footer>
