@@ -2,6 +2,10 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import Index from './pages/Index.vue';
 import About from './pages/About.vue';
+import Services from './pages/Services.vue';
+import Workshops from './pages/Workshops.vue';
+import Helpdesk from './pages/Helpdesk.vue';
+
 import Contact from './pages/Contact.vue';
 
 import Componentspage from './pages/Componentspage.vue';
@@ -38,6 +42,33 @@ export default new Router({
       path: '/contact',
       name: 'contact',
       components: { default: Contact, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: 'black' }
+      }
+    },
+    {
+      path: '/development-services',
+      name: 'services',
+      components: { default: Services, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: 'black' }
+      }
+    },
+    {
+      path: '/workshops',
+      name: 'Workshops',
+      components: { default: Workshops, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: 'black' }
+      }
+    },
+    {
+      path: '/helpdesk',
+      name: 'Helpdesk',
+      components: { default: Helpdesk, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black' }

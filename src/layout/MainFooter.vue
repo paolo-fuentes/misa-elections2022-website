@@ -18,17 +18,17 @@
             </a>
           </li>
           <li>
-            <a href="https:///blog.creative-tim.com">
+            <a href="#/development-services">
               Development
             </a>
           </li>
           <li>
-            <a href="https:///blog.creative-tim.com">
+            <a href="#/workshops">
               Workshops
             </a>
           </li>
           <li>
-            <a href="https:///blog.creative-tim.com">
+            <a href="#/helpdesk">
               Helpdesk
             </a>
           </li>

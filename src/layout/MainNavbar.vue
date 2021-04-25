@@ -36,13 +36,13 @@
               title="Services"
               class="nav-item"
       >
-        <nav-link to="/landing">
+        <nav-link to="/development-services">
           <i class="now-ui-icons design_app"></i> IT Products and Services
         </nav-link>
-        <nav-link to="/login">
+        <nav-link to="/workshops">
           <i class="now-ui-icons education_hat"></i> Development Workshops
         </nav-link>
-        <nav-link to="/profile">
+        <nav-link to="/helpdesk">
           <i class="now-ui-icons emoticons_satisfied"></i> eServices Helpdesk
         </nav-link>
       </drop-down>

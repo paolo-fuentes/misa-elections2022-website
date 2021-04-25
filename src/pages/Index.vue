@@ -82,30 +82,13 @@
                 The next step to business technology.
               </h3>
               <p>
-                The Arctic Ocean freezes every winter and much of the sea-ice
-                then thaws every summer, and that process will continue whatever
-                happens with climate change. Even if the Arctic continues to be
-                one of the fastest-warming regions of the world, it will always
-                be plunged into bitterly cold polar dark every winter. And
-                year-by-year, for all kinds of natural reasons, there’s huge
-                variety of the state of the ice.
+                placeholder text
               </p>
               <p>
-                For a start, it does not automatically follow that a record
-                amount of ice will melt this summer. More important for
-                determining the size of the annual thaw is the state of the
-                weather as the midnight sun approaches and temperatures rise.
-                But over the more than 30 years of satellite records, scientists
-                have observed a clear pattern of decline, decade-by-decade.
+                placeholder text
               </p>
               <p>
-                The Arctic Ocean freezes every winter and much of the sea-ice
-                then thaws every summer, and that process will continue whatever
-                happens with climate change. Even if the Arctic continues to be
-                one of the fastest-warming regions of the world, it will always
-                be plunged into bitterly cold polar dark every winter. And
-                year-by-year, for all kinds of natural reasons, there’s huge
-                variety of the state of the ice.
+                placeholder text
               </p>
             </div>
           </div>
@@ -147,8 +130,7 @@
                                   Contact Us
                                 </a>
                                 <a
-                                  href="#/development"
-                                  target="_blank"
+                                  href="#/development-services"
                                   class="btn btn-primary btn-lg btn-simple btn-round"
                                   role="button"
                                 >
@@ -169,14 +151,14 @@
                           <div class="container">
                             <div class="row justify-content-md-center">
                               <div class="text-center col-md-12 col-lg-8">
-                                <h3 class="title">Workshops</h3>
+                                <h3 class="title">Development Workshops</h3>
                                 <h5 class="description">
-                                  MISA eServices offers IT Consultancy so we can improve your organization by leveraging IT to your advantage. We also offer web and systems development to help you build your online presence, or to make your processes more effective and efficient to maximize your business potential.
+                                  placeholder text
                                 </h5>
                               </div>
                               <div class="text-center col-md-12 col-lg-8">
                                 <a
-                                  href="#/contact"
+                                  href="#/workshops"
                                   class="btn btn-primary btn-lg btn-round"
                                   role="button"
                                 >
@@ -200,12 +182,12 @@
                               <div class="text-center col-md-12 col-lg-8">
                                 <h3 class="title">eServices Helpdesk</h3>
                                 <h5 class="description">
-                                  MISA eServices offers IT Consultancy so we can improve your organization by leveraging IT to your advantage. We also offer web and systems development to help you build your online presence, or to make your processes more effective and efficient to maximize your business potential.
+                                  placeholder text
                                 </h5>
                               </div>
                               <div class="text-center col-md-12 col-lg-8">
                                 <a
-                                  href="#/contact"
+                                  href="#/helpdesk"
                                   class="btn btn-primary btn-lg btn-round"
                                   role="button"
                                 >
@@ -213,7 +195,6 @@
                                 </a>
                                 <a
                                   href="#/development"
-                                  target="_blank"
                                   class="btn btn-primary btn-lg btn-simple btn-round"
                                   role="button"
                                 >
