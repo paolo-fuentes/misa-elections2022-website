@@ -1,12 +1,17 @@
 <template>
   <div>
-    <div class="page-header clear-filter" filter-color="orange">
+    <div class="page-header clear-filter" filter-color="primary">
       <parallax
         class="page-header-image"
         style="background-image:url('img/bg5.jpg')"
       >
       </parallax>
       <div class="container">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <div class="misa-logo">
           <img src="img/misa-logo.png" alt="" />
         </div>

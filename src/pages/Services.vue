@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="page-header page-header-small">
+    <div class="page-header page-header-small" filter-color="primary">
       <parallax
         class="page-header-image"
         style="background-image: url('img/bg6.jpg')"
@@ -26,13 +26,92 @@
           </div>
         </div>
       </div>
+
+      <div class="container text-center">
+        <h3>Check out the works from the people in eServices</h3>
+        <div class="row">
+
+
+          <div class="col-md-4 portfolio-item" v-for="site in portfolio" :key="site.title">
+            <h4> {{ site.title }} </h4>
+            <img :src= site.image alt="Image" class="img-raised" />
+            
+            <router-link
+              :to= site.link
+              class="btn btn-simple btn-primary btn-round"
+              v-if="site.link"
+              >Visit Site
+            </router-link>
+            <div
+              class="btn btn-round btn-simple disabled-custom" 
+              v-else
+              >Site Offline
+            </div>
+            <div class="tech-stacks text-center">
+              <div class="tech-stack col-md-2" v-for="tech in site.tech_logos" :key="tech.image">
+                <img :src= tech.image alt="Image" class="tech-logo" />
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+
     </div>
   </div>
 </template>
+
 <script>
 export default {
+  data() {
+    return {
+      portfolio: [
+        {
+          title: "ORSEM 2020 Website",
+          image: "/img/profile.jpg",
+          status: "offline",
+          tech_logos: [
+            {
+              image: "/img/techs/vue.png"
+            },
+            {
+              image: "/img/techs/django.png"
+            }
+            
 
+          ]
+        },
+        {
+          title: "ORSEM 2020 Websites",
+          link: "/profile",
+          image: "/img/profile.jpg"
+        }
+      ]
+    }
+  }
 };
 </script>
+
 <style lang="scss" scoped>
+
+
+.portfolio-item{
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
+
+.disabled-custom:hover{
+  cursor: default !important;
+  color: #999999 !important;
+  border-color: #999999 !important;
+}
+
+.tech-stacks{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 12px;
+
+}
 </style>

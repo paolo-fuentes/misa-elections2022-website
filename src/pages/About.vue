@@ -1,13 +1,14 @@
 <template>
   <div>
-    <div class="page-header page-header-small">
+    <div class="page-header page-header-small" filter-color="primary">
       <parallax
         class="page-header-image"
         style="background-image: url('img/bg6.jpg')"
       >
       </parallax>
-      <div class="content-center">
+      <div class="content-center brand">
         <div class="container">
+          <img class="n-logo" src="img/now-logo.png" alt="" />
           <h1 class="title">About eServices</h1>
         </div>
       </div>
@@ -159,7 +160,7 @@ export default {
                 year: "2018-2019",
                 ebyear: [
                 {
-                    name: "Lorenzo Migel Pinaroc",
+                    name: "Francis Avancena",
                     position: "VP FOR ESERVICES",
                     image_link: "img/ryan.jpg"
                 },
@@ -176,6 +177,31 @@ export default {
                 },
                 {
                     name: "Erin Yabut",
+                    position: "AVP FOR IT SKILLS TRAINING AND EVALUATION",
+                    image_link: "img/ryan.jpg"
+                }]
+            },
+            {
+                year: "2017-2018",
+                ebyear: [
+                {
+                    name: "Daniel Tiongson",
+                    position: "VP FOR ESERVICES",
+                    image_link: "img/ryan.jpg"
+                },
+                {
+                    name: "Francis Avancena",
+                    position: "AVP FOR SYSTEMS DOCUMENTATIONS",
+                    image_link: "img/eva.jpg"
+                    
+                },
+                {
+                    name: "Royce Chan",
+                    position: "AVP FOR IT PRODUCTS AND SERVICES",
+                    image_link: "img/ryan.jpg"
+                },
+                {
+                    name: "Carlo Ferrer",
                     position: "AVP FOR IT SKILLS TRAINING AND EVALUATION",
                     image_link: "img/ryan.jpg"
                 }]

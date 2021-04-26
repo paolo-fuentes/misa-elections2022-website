@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="page-header clear-filter" filter-color="orange">
+    <div class="page-header clear-filter" filter-color="primary">
       <parallax
         class="page-header-image"
         style="background-image:url('img/header.jpg')"
@@ -116,7 +116,7 @@
 
                             <div class="row justify-content-md-center">
                               <div class="text-center col-md-12 col-lg-8">
-                                <h3 class="title">Systems Design and Development</h3>
+                                <h3 class="title">IT Products and Services</h3>
                                 <h5 class="description">
                                   MISA eServices offers IT Consultancy so we can improve your organization by leveraging IT to your advantage. We also offer web and systems development to help you build your online presence, or to make your processes more effective and efficient to maximize your business potential.
                                 </h5>
@@ -134,7 +134,7 @@
                                   class="btn btn-primary btn-lg btn-simple btn-round"
                                   role="button"
                                 >
-                                  Our Process
+                                  Learn More
                                 </a>
                               </div>
                             </div>
