@@ -40,7 +40,7 @@
         </ul>
       </nav>
       <div class="copyright">
-        &copy; {{ year }}, Developed by MISA eServices A.Y. 2020-2021
+        &copy; {{ year }}, Developed by MISA eServices
       </div>
     </div>
   </footer>

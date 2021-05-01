@@ -28,6 +28,10 @@
         </div>
       </div>
     </div>
+    <br>
+    <br>
+    <br>
+    <EservicesSection></EservicesSection>
     <div class="section section-team text-center">
       <div class="container">
         
@@ -93,12 +97,14 @@
 </template>
 <script>
 import { Button, FormGroupInput } from '@/components';
+import  EservicesSection  from './components/EservicesSection.vue';
 export default {
   name: 'landing',
   bodyClass: 'landing-page',
   components: {
     [Button.name]: Button,
-    [FormGroupInput.name]: FormGroupInput
+    [FormGroupInput.name]: FormGroupInput,
+    EservicesSection
   },
   data() {
     return {

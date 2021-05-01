@@ -39,10 +39,10 @@
           <div class="col-md-8 ml-auto mr-auto text-center">
             <h2 class="title">Who we are?</h2>
             <h5 class="description">
-              eServices is a cluster under MISA that provides IT solutions to clients within and outside the organization. In line with MISA's vision of social transformation through information management, it aims to improve organizational processes of clients by delivering quality IT Solutions through the effective use of information technology.
+              We are from the Management Information Systems Association (MISA), the Ateneo Loyola Schools’ premier information management organization which serves as a home for MIS majors and like-minded IT enthusiasts. Founded in 1994, it is now on its 25th year of pursuing its main advocacy – social transformation through information management.
             </h5>
             <a
-              href="#/about"
+              href="#/eservices"
               class="btn btn-primary btn-lg btn-simple btn-round"
               role="button"
             >
@@ -82,13 +82,10 @@
                 The next step to business technology.
               </h3>
               <p>
-                placeholder text
+                We aim to be the country’s leading student organization of information management professionals leveraging our skills in information management for our pursuit of excellence and nation building. Guided by the core values of excellence, servant leadership and professionalism, we aim to inform, to form and to transform the society through proactive engagement in projects utilizing information technology as a tool towards effective information management. We provide a fun learning environment for our members to help them fully realize their potential as individuals and as catalysts of change through information management and information technology.
               </p>
               <p>
-                placeholder text
-              </p>
-              <p>
-                placeholder text
+                MISA is among the 8 organizations of the Science and Technology Cluster of the Council of Organizations of the Ateneo. MISA is also a proud member of the Philippine Computing Organizations Alliance (PCOA).
               </p>
             </div>
           </div>
@@ -96,135 +93,21 @@
       </div>
     </div>
     
-    <div class="section section-basic">
-        <div class="">
-            <div class="col-md-6 ml-auto mr-auto">
-                <h2 class="title text-center">Our Services</h2>
-            </div>
-            <tabs
-                pills
-                class="nav-align-center"
-                tab-content-classes="gallery"
-                tab-nav-classes="nav-pills-just-icons"
-                type="primary"
-            >
-                <tab-pane title="Development">
-                    <i slot="label" class="now-ui-icons design_app"></i>
-                    <div class="col-md-10 ml-auto mr-auto">
-                        <div class="section section-nucleo-icons">
-                          <div class="container">
-
-                            <div class="row justify-content-md-center">
-                              <div class="text-center col-md-12 col-lg-8">
-                                <h3 class="title">IT Products and Services</h3>
-                                <h5 class="description">
-                                  MISA eServices offers IT Consultancy so we can improve your organization by leveraging IT to your advantage. We also offer web and systems development to help you build your online presence, or to make your processes more effective and efficient to maximize your business potential.
-                                </h5>
-                              </div>
-                              <div class="text-center col-md-12 col-lg-8">
-                                <a
-                                  href="#/contact"
-                                  class="btn btn-primary btn-lg btn-round"
-                                  role="button"
-                                >
-                                  Contact Us
-                                </a>
-                                <a
-                                  href="#/development-services"
-                                  class="btn btn-primary btn-lg btn-simple btn-round"
-                                  role="button"
-                                >
-                                  Learn More
-                                </a>
-                              </div>
-                            </div>
-
-                          </div>
-                        </div>
-                    </div>
-                </tab-pane>
-
-                <tab-pane title="Workshops">
-                    <i slot="label" class="now-ui-icons education_hat"></i>
-                    <div class="col-md-10 ml-auto mr-auto">
-                        <div class="section section-nucleo-icons">
-                          <div class="container">
-                            <div class="row justify-content-md-center">
-                              <div class="text-center col-md-12 col-lg-8">
-                                <h3 class="title">Development Workshops</h3>
-                                <h5 class="description">
-                                  placeholder text
-                                </h5>
-                              </div>
-                              <div class="text-center col-md-12 col-lg-8">
-                                <a
-                                  href="#/workshops"
-                                  class="btn btn-primary btn-lg btn-round"
-                                  role="button"
-                                >
-                                  Workshops Schedule
-                                </a>
-                              </div>
-                            </div>
-                            
-
-                          </div>
-                        </div>
-                    </div>
-                </tab-pane>
-
-                <tab-pane title="Helpdesk">
-                    <i slot="label" class="now-ui-icons emoticons_satisfied"></i>
-                    <div class="col-md-10 ml-auto mr-auto">
-                        <div class="section section-nucleo-icons">
-                          <div class="container">
-                            <div class="row justify-content-md-center">
-                              <div class="text-center col-md-12 col-lg-8">
-                                <h3 class="title">eServices Helpdesk</h3>
-                                <h5 class="description">
-                                  placeholder text
-                                </h5>
-                              </div>
-                              <div class="text-center col-md-12 col-lg-8">
-                                <a
-                                  href="#/helpdesk"
-                                  class="btn btn-primary btn-lg btn-round"
-                                  role="button"
-                                >
-                                  Contact Us
-                                </a>
-                                <a
-                                  href="#/development"
-                                  class="btn btn-primary btn-lg btn-simple btn-round"
-                                  role="button"
-                                >
-                                  About Helpdesk
-                                </a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                </tab-pane>
-            </tabs>
-        </div>
-    </div>
+    <EservicesSection></EservicesSection>
 
 
   </div>
 </template>
 <script>
-import { Parallax, Tabs, TabPane } from '@/components';
-
-
+import { Parallax } from '@/components';
+import  EservicesSection  from './components/EservicesSection.vue';
 
 export default {
   name: 'index',
   bodyClass: 'index-page',
   components: {
+    EservicesSection,
     Parallax,
-    Tabs,
-    TabPane
   }
 };
 </script>
