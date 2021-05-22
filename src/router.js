@@ -5,7 +5,7 @@ import AboutEservs from './pages/AboutEservs.vue';
 import Services from './pages/Services.vue';
 import Workshops from './pages/Workshops.vue';
 import Helpdesk from './pages/Helpdesk.vue';
-
+import Elections from './pages/Elections.vue';
 import Contact from './pages/Contact.vue';
 
 import Componentspage from './pages/Componentspage.vue';
@@ -69,6 +69,16 @@ export default new Router({
       path: '/helpdesk',
       name: 'Helpdesk',
       components: { default: Helpdesk, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: 'black' }
+      }
+    },
+
+    {
+      path: '/Elections',
+      name: 'Elections',
+      components: { default: Elections, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black' }
