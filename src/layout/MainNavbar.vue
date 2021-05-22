@@ -16,7 +16,7 @@
       <li class="nav-item">
         <a
           class="nav-link"
-          href="#/"
+          href="/"
         >
           <p>Home</p>
         </a>
@@ -25,7 +25,7 @@
       <li class="nav-item">
         <a
           class="nav-link"
-          href="#/eservices"
+          href="/eservices"
         >
           <p>About</p>
         </a>
@@ -50,7 +50,16 @@
       <li class="nav-item">
         <a
           class="nav-link"
-          href="#/contact"
+          href="/elections"
+        >
+          <p>Elections</p>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          href="/contact"
         >
           <p>Contact Us</p>
         </a>
