@@ -1,22 +1,28 @@
 <template>
 <div>
-    <div class="candidate-card">
-        <n-button type="primary" @click.native="modals.classic = true">
-            View Platform
-        </n-button>
+    <div class="candidate-card" >
+        <img src="img/candidate-image.png">
+        <div class="candidate-card-text">
+          <h4>{{name}}</h4>
+          <h5>{{position}}</h5>
+          <n-button type="primary" @click="modals.classic = true">
+              View Platform
+          </n-button>
+        </div>
+        
     </div>
     
 
     <!-- Classic Modal -->
     <modal :show.sync="modals.classic" headerClasses="justify-content-center">
-      <h4 slot="header" class="title title-up">Modal title</h4>
+      <h4 slot="header" class="title title-up">Platform</h4>
+      <h4>{{name}}</h4>
+      <h5>{{position}}</h5>
+      <img src="img/candidate-image.png">
+      <br>
+      <br>
       <p>
-        Far far away, behind the word mountains, far from the countries Vokalia
-        and Consonantia, there live the blind texts. Separated they live in
-        Bookmarksgrove right at the coast of the Semantics, a large language
-        ocean. A small river named Duden flows by their place and supplies it
-        with the necessary regelialia. It is a paradisematic country, in which
-        roasted parts of sentences fly into your mouth.
+        {{platform}}
       </p>
       <template slot="footer">
         <n-button type="danger" @click.native="modals.classic = false"
@@ -40,9 +46,37 @@ export default {
         classic: false
       }
     };
+  },
+  props: {
+    name: String,
+    position: String,
+    image: String,
+    platform: String
   }
 }
 </script>
 <style lang="scss" scoped>
+    .candidate-card{
+      // border: 1px solid #DDDDDD;
+      // transition: 0.2s;
+      
+      // &:hover{
+      //   border: 1px solid #149da1;
+      //   cursor: pointer;
+      // }
+
+      h4{
+        margin: 12px 0px;
+      }
+
+      h5{
+        margin: 0;
+      }
+
+      .candidate-card-text{
+        // padding: 8px;
+      }
+    }
+
     
 </style>
