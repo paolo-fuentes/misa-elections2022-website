@@ -16,26 +16,11 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">Want to work with us?</h2>
-            
+            <h2 class="title">This page is coming soon :)</h2>
 
-            <!-- <n-progress type="primary" :value="0" label="Consult"></n-progress>
-            <p class="description"></p>
 
-            <n-progress type="primary" :value="20" label="Gather Requirements"></n-progress>
-            <p class="description"></p>
+            <!-- <h2 class="title">Want to work with us?</h2> -->
 
-            <n-progress type="primary" :value="40" label="Design"></n-progress>
-            <p class="description"></p>
-
-            <n-progress type="primary" :value="60" label="Develop"></n-progress>
-            <p class="description"></p>
-
-            <n-progress type="primary" :value="80" label="Test"></n-progress>
-            <p class="description"></p>
-
-            <n-progress type="primary" :value="100" label="Deploy"></n-progress>
-            <p class="description"></p> -->
           </div>
         </div>
       </div>
@@ -43,7 +28,7 @@
       <br>
       <br>
       <br>
-      <div class="container text-center">
+      <!-- <div class="container text-center">
         <h3>Check out the works from the people in eServices</h3>
         <div class="row">
 
@@ -71,7 +56,7 @@
           </div>
           
         </div>
-      </div>
+      </div> -->
 
 
     </div>

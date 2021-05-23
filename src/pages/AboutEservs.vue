@@ -32,7 +32,8 @@
     <br>
     <br>
     <EservicesSection></EservicesSection>
-    <div class="section section-team text-center">
+    
+    <!-- <div class="section section-team text-center">
       <div class="container">
         
         <div class="team" v-for="ebyear in eb.slice(0,1)" :key="ebyear.year" :selected="index === 0">
@@ -87,7 +88,7 @@
 
         </section>
       </div>
-    </div>
+    </div> -->
 
     
 

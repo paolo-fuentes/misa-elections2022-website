@@ -42,7 +42,7 @@
               We are from the Management Information Systems Association (MISA), the Ateneo Loyola Schools’ premier information management organization which serves as a home for MIS majors and like-minded IT enthusiasts. Founded in 1994, it is now on its 25th year of pursuing its main advocacy – social transformation through information management.
             </h5>
             <a
-              href="#/eservices"
+              href="/eservices"
               class="btn btn-primary btn-lg btn-simple btn-round"
               role="button"
             >

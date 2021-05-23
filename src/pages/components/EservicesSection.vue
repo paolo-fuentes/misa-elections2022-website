@@ -26,14 +26,14 @@
                             </div>
                             <div class="text-center col-md-12 col-lg-8">
                               <a
-                                href="#/contact"
+                                href="/contact"
                                 class="btn btn-primary btn-lg btn-round"
                                 role="button"
                               >
                                 Contact Us
                               </a>
                               <a
-                                href="#/development-services"
+                                href="/development-services"
                                 class="btn btn-primary btn-lg btn-simple btn-round"
                                 role="button"
                               >
@@ -61,7 +61,7 @@
                             </div>
                             <div class="text-center col-md-12 col-lg-8">
                               <a
-                                href="#/workshops"
+                                href="/workshops"
                                 class="btn btn-primary btn-lg btn-round"
                                 role="button"
                               >
@@ -90,14 +90,14 @@
                             </div>
                             <div class="text-center col-md-12 col-lg-8">
                               <a
-                                href="#/helpdesk"
+                                href="/helpdesk"
                                 class="btn btn-primary btn-lg btn-round"
                                 role="button"
                               >
                                 Contact Us
                               </a>
                               <a
-                                href="#/development"
+                                href="/development"
                                 class="btn btn-primary btn-lg btn-simple btn-round"
                                 role="button"
                               >

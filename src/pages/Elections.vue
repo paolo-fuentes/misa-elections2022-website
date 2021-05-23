@@ -22,10 +22,24 @@
                             :name=candidate.name
                             :position=candidate.position
                             :image=candidate.image
+                            :platform=candidate.platform
                         >
                         </Candidate>
                     </div>
                 </div>
+
+                <div class="vote-cta text-center">
+                    <h3>Ready to vote?</h3>
+                    <p>Login with your ID number and if you're eligible to vote, you will be redirected to the form so you would be able to cast your vote.</p>
+                    <a
+                    href="/elections-login"
+                    class="btn btn-primary btn-lg btn-simple btn-round"
+                    role="button"
+                    >
+                        Vote
+                    </a>
+                </div>
+                
                 
                 
             </div>
@@ -81,5 +95,10 @@ export default {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(340px , 1fr));
         gap: 16px;
+    }
+
+    .vote-cta{
+        margin: 64px auto ;
+        max-width: 420px;
     }
 </style>

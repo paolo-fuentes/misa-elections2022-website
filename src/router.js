@@ -7,6 +7,7 @@ import Workshops from './pages/Workshops.vue';
 import Helpdesk from './pages/Helpdesk.vue';
 import Elections from './pages/Elections.vue';
 import Contact from './pages/Contact.vue';
+import ElectionsLogin from './pages/ElectionsLogin.vue';
 
 import Componentspage from './pages/Componentspage.vue';
 import Landing from './pages/Landing.vue';
@@ -80,6 +81,15 @@ export default new Router({
       path: '/Elections',
       name: 'Elections',
       components: { default: Elections, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: 'black' }
+      }
+    },
+    {
+      path: '/elections-login',
+      name: 'ElectionsLogin',
+      components: { default: ElectionsLogin},
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black' }
