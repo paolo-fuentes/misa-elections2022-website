@@ -9,7 +9,7 @@
             <div class="content-center brand">
                 <div class="container">
                 <img class="n-logo" src="img/now-logo.png" alt="" />
-                <h1 class="title">MISA Elections</h1>
+                <h1 class="title">MISA EB Elections</h1>
                 </div>
             </div>
         </div>
