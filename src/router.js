@@ -8,6 +8,8 @@ import Helpdesk from './pages/Helpdesk.vue';
 import Elections from './pages/Elections.vue';
 import Contact from './pages/Contact.vue';
 import ElectionsLogin from './pages/ElectionsLogin.vue';
+import Ballot from './pages/Ballot.vue';
+import invalidID from './pages/InvalidID.vue';
 
 import Componentspage from './pages/Componentspage.vue';
 import Landing from './pages/Landing.vue';
@@ -98,7 +100,16 @@ export default new Router({
     {
       path: '/ballot',
       name: 'Ballot',
-      components: { default: Helpdesk, header: MainNavbar, footer: MainFooter },
+      components: { default: Ballot, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: 'black' }
+      }
+    },
+    {
+      path: '/invalidID',
+      name: 'invalidID',
+      components: { default: invalidID, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black' }

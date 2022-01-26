@@ -8,7 +8,7 @@
       </parallax>
       <div class="content-center">
         <div class="container">
-          <h1 class="title">eServices Helpdesk</h1>
+          <h1 class="title">MISA EB Elections 2022 Ballot</h1>
         </div>
       </div>
     </div>

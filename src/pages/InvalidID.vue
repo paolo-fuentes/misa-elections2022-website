@@ -14,25 +14,13 @@
               <img v-lazy="'img/now-logo.png'" alt="" />
             </div>
 
-            <form @submit="handleSubmit">
-              <label class="custom-field one">
-                <input type="number" placeholder="Enter ID Number" v-model="id" required/>
-              </label>
-              <button
-                    type="submit"
-                    class="btn btn-primary btn-round btn-lg btn-block"
-                    >Login
-              </button>
-                  
-            </form>
-
+            <h5>Sorry MISAn, you are not eligible to vote in this year's EB Elections.</h5>
               <template slot="raw-content">
                 <div class="card-footer text-center">
-                  
                   <a
                     href="/"
                     class="btn btn-default btn-round btn-lg btn-block"
-                    >Cancel</a
+                    >Go Back to Home</a
                   >
                 </div>
               
@@ -74,48 +62,4 @@ export default {
   }
 };
 </script>
-<style>
-
-.custom-field {
-  position: relative;
-  font-size: 14px;
-  border-top: 20px solid transparent;
-  margin-bottom: 5px;
-  --field-padding: 12px;
-}
-
-.custom-field input {
-  border: none;
-  -webkit-appearance: none;
-  -ms-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background: #f2f2f2;
-  padding: var(--field-padding);
-  border-radius: 3px;
-  width: 250px;
-  outline: none;
-  font-size: 14px;
-  color: white;
-}
-
-::placeholder {
-  color: white;
-}
-
-
-/* ONE */
-.custom-field.one input {
-  background: none;
-  border: 2px solid #ddd;
-  transition: border-color 0.3s ease;
-}
-
-.custom-field.one input + .placeholder {
-  left: 8px;
-  padding: 0 5px;
-}
-
-
-
-</style>
+<style></style>
