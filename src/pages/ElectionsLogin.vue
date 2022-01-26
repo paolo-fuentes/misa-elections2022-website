@@ -16,7 +16,7 @@
 
             <form @submit="handleSubmit">
               <label class="custom-field one">
-                <input type="number" placeholder="Enter ID Number" v-model="id" required/>
+                <input type="number" placeholder="Enter ID Number" v-model="id" onKeyPress="if(this.value.length==6) return false;" required/>
               </label>
               <button
                     type="submit"
