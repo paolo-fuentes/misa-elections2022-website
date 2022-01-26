@@ -14,28 +14,30 @@
               <img v-lazy="'img/now-logo.png'" alt="" />
             </div>
 
-            <fg-input
-              class="no-border input-lg"
-              addon-left-icon="now-ui-icons users_circle-08"
-              placeholder="ID Number"
-            >
-            </fg-input>
+            <form @submit="handleSubmit">
+              <label class="custom-field one">
+                <input type="text" placeholder="Enter ID Number" required/>
+              </label>
+              <button
+                    type="submit"
+                    class="btn btn-primary btn-round btn-lg btn-block"
+                    >Login
+              </button>
+                  
+            </form>
 
-            <template slot="raw-content">
-              <div class="card-footer text-center">
-                <a
-                  href="#pablo"
-                  class="btn btn-primary btn-round btn-lg btn-block"
-                  >Login</a
-                >
-                <a
-                  href="/elections"
-                  class="btn btn-default btn-round btn-lg btn-block"
-                  >Cancel</a
-                >
-              </div>
-             
-            </template>
+              <template slot="raw-content">
+                <div class="card-footer text-center">
+                  
+                  <a
+                    href="/"
+                    class="btn btn-default btn-round btn-lg btn-block"
+                    >Cancel</a
+                  >
+                </div>
+              
+              </template>
+  
           </card>
         </div>
       </div>
@@ -52,7 +54,56 @@ export default {
     Card,
     [Button.name]: Button,
     [FormGroupInput.name]: FormGroupInput
+  },
+  methods: {
+    handleSubmit() {
+      this.$router.push("/ballot");
+    }
   }
 };
 </script>
-<style></style>
+<style>
+
+.custom-field {
+  position: relative;
+  font-size: 14px;
+  border-top: 20px solid transparent;
+  margin-bottom: 5px;
+  --field-padding: 12px;
+}
+
+.custom-field input {
+  border: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #f2f2f2;
+  padding: var(--field-padding);
+  border-radius: 3px;
+  width: 250px;
+  outline: none;
+  font-size: 14px;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+
+/* ONE */
+.custom-field.one input {
+  background: none;
+  border: 2px solid #ddd;
+  transition: border-color 0.3s ease;
+}
+
+.custom-field.one input + .placeholder {
+  left: 8px;
+  padding: 0 5px;
+}
+
+
+
+</style>

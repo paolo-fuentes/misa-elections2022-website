@@ -24,8 +24,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'index',
-      components: { default: Index, header: MainNavbar, footer: MainFooter },
+      name: 'Elections',
+      components: { default: Elections, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black' }
@@ -90,6 +90,15 @@ export default new Router({
       path: '/elections-login',
       name: 'ElectionsLogin',
       components: { default: ElectionsLogin},
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: 'black' }
+      }
+    },
+    {
+      path: '/ballot',
+      name: 'Ballot',
+      components: { default: Helpdesk, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black' }
