@@ -13,7 +13,7 @@
             <div slot="header" class="logo-container">
               <img v-lazy="'img/now-logo.png'" alt="" />
             </div>
-
+            <card plain></card>
             <h5>Sorry MISAn, you are not eligible to vote in this year's EB Elections.</h5>
               <template slot="raw-content">
                 <div class="card-footer text-center">

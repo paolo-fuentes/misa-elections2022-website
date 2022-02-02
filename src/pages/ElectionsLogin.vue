@@ -13,20 +13,21 @@
             <div slot="header" class="logo-container">
               <img v-lazy="'img/now-logo.png'" alt="" />
             </div>
-
-            <form @submit="handleSubmit">
-              <label class="custom-field one">
-                <input type="number" placeholder="Enter ID Number" v-model="id" onKeyPress="if(this.value.length==6) return false;" required/>
-              </label>
-              <button
-                    type="submit"
-                    class="btn btn-primary btn-round btn-lg btn-block"
-                    >Login
-              </button>
-                  
-            </form>
-
               <template slot="raw-content">
+                <form @submit="handleSubmit">
+                  <label class="custom-field one">
+                    <input type="number" placeholder="Enter ID Number" v-model="id" onKeyPress="if(this.value.length==6) return false;" required/>
+                  </label>
+                  <card plain></card>
+                  <button
+                        type="submit"
+                        class="btn btn-primary btn-round btn-lg btn-block"
+                        >Login
+                  </button>
+                      
+                </form>
+
+              
                 <div class="card-footer text-center">
                   
                   <a
@@ -80,7 +81,7 @@ export default {
   position: relative;
   font-size: 14px;
   border-top: 20px solid transparent;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
   --field-padding: 12px;
 }
 
