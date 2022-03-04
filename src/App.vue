@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-    <!-- <router-view name="header" /> -->
+    <router-view name="header" v-if="!['Elections', 'Ballot'].includes($route.name)" />
     <div class="wrapper">
       <router-view />
     </div>
-    <router-view name="footer" />
+    <router-view name="footer" v-if="!['Elections', 'Ballot'].includes($route.name)" />
   </div>
 </template>
 <script>
