@@ -30,10 +30,10 @@
 
                 <div class="vote-cta text-center">
                     <h3>Ready to vote?</h3>
-                    <p>Login with your ID number and if you're eligible to vote, you will be redirected to the form so you would be able to cast your vote.</p>
+                    <p><strong>Login with your ID number and if you're eligible to vote, you will be redirected to the form so you would be able to cast your vote.</strong></p>
                     <a
                     href="/elections-login"
-                    class="btn btn-primary btn-lg btn-simple btn-round"
+                    class="btn btn-primary btn-lg btn-round btn-round"
                     role="button"
                     >
                         Vote
